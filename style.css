@@ -1,0 +1,340 @@
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px; /
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+  .cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+  }
+  .Logo{
+    margin-right: 150px;
+  }
+
+
+.Logo img {
+    height: 150px;
+    width: auto;
+}
+
+.content {
+    padding: 20px;
+    font-size: large;
+}
+
+h2 {
+  color: #4D3434;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+.containerbez a:hover {
+  color: #6B4E4E;
+}
+
+.containerbez{
+ display: flex; 
+  justify-content: space-around;
+  min-width: 35vw;
+margin-right: 150px;
+color: black;
+font-size: 65px;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  --s: 37px; 
+
+  --c: #0000, #c359db59 0.5deg 119.5deg, #0000 120deg;
+  --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
+  --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
+  --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
+  background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),
+    var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,
+    var(--g3) 0 calc(1.73 * var(--s)) #254c72;
+  background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
+}
+
+header{
+background-image: linear-gradient(rgba(0, 0, 0, 0.434),rgba(219, 167, 216, 0.816));
+}
+
+
+.Custom {
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  .Login {
+  display: flex;
+  justify-content: center;
+  color: rgb(42, 42, 44);
+  
+  }
+  .uname input[type="text"],
+  .Psw input[type="password"],
+  .cnf input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      background-image: linear-gradient(to center, #000000, #ffffff);
+      color: rgb(0, 0, 0); 
+      cursor: pointer;
+  }
+  
+  
+  .Button {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  
+  }
+  
+  .Button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  }
+
+  .Border {
+    border: black 1px solid;
+    max-width: 310px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 3px;
+    animation: changeBgColor 5s infinite;
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    }
+    
+  .loginbb button{
+    background-color: #787ce4;
+    font-size: x-large;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.login{
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin-right: 100px;
+}
+
+
+.loginbb :hover button {
+  background-color: #787ce4;
+  font-size: x-large;
+  transition: all 0.5s ease-in-out;
+    border-radius: 9px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.image-item {
+  margin: 0 15px;
+}
+.image-item img {
+  display: block;
+  margin: 0 auto;
+}
+.image-item p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.WhatIS{
+  color: white;
+  
+}
+body {
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roll-item {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.roll-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.all-item {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: purple; /* Default color */
+}
+
+.all-item p {
+  margin: 0;
+}
+
+.all-item span {
+  margin-left: 10px;
+}
+
+.ROLL button {
+    color: #fff;
+    background-color: #800080; 
+    display: flex;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    outline: none;
+    
+}
+
+.ROLL button:hover {
+  transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-color: #9932CC; 
+}
+
+.ROLL button:active {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.ROLL{
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.WhatIS{
+  background: url(https://www.colorcombos.com/images/colors/F0F9EB.png) 0 0 /cover no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  width: 18rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.4s;
+  background-color: #CADBC0;
+}
+
+.card:hover {
+  transform: translateY(+5px);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 16px;
+  background-color: #CADBC0;
+}
+
+.card-title {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+  color: #333;
+  background-color: #CADBC0;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 16px;
+  background-color: #CADBC0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.card-container{
+  display: flex;
+justify-content: center;
+justify-content: space-between;
+margin-top: 20px;
+}
+.biomescontainer{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+margin-top: 20px;
+}
